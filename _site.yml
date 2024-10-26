@@ -15,4 +15,4 @@ navbar:
       href: https://www.publichealth.columbia.edu/
 output:
   html_document:
-    theme: default
+    theme: journal

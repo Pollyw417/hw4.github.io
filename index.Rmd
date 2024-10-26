@@ -14,6 +14,9 @@ Welcome to the personal website for Polly Wu~
 
 [CV](about.html)
 
+## Dashboard for problem 2 
+[NYC weather dashboard](problem2.html)
+
 
 ## Data Visualization Projects
 [COVID-19 Vaccination Gap](https://observablehq.com/embed/@pollywry/maps-dotmap-testify-2?cells=title%2Cviewof+date_range%2Cviewof+VaccinationRate%2CmapContainer%2Cfilter_container)
@@ -22,3 +25,4 @@ Welcome to the personal website for Polly Wu~
 ## My github page
 [github](https://github.com/Pollyw417)
 
+ 
