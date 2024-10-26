@@ -1,0 +1,26 @@
+---
+title: "Polly Wu"
+output: 
+html_document:
+          toc:ture
+          toc_float:true
+---
+
+
+Welcome to the personal website for Polly Wu~
+
+
+
+
+## Academic and professional experience 
+
+[CV](resume.html)
+
+
+## Data Visualization Projects
+[COVID-19 Vaccination Gap](https://observablehq.com/embed/@pollywry/maps-dotmap-testify-2?cells=title%2Cviewof+date_range%2Cviewof+VaccinationRate%2CmapContainer%2Cfilter_container)
+
+
+## My github page
+[github](https://github.com/Pollyw417)
+
