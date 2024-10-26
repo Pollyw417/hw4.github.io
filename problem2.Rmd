@@ -1,0 +1,76 @@
+---
+title: "Flexdashboard"
+output: 
+  flexdashboard::flex_dashboard:
+    orientation: columns
+    vertical_layout: fill
+    source: embed
+---
+
+```{r setup, include=FALSE}
+library(flexdashboard)
+library(tidyverse)
+library(p8105.datasets)
+library(plotly)
+```
+
+
+```{r}
+data("ny_noaa")
+
+ny_noaa = 
+  ny_noaa|>
+    filter(year(date)%in% c(2006,2007), !is.na(tmax), !is.na(tmin))|>
+    mutate(
+    tmax = as.numeric(tmax)/10,
+    tmin = as.numeric(tmin)/10,
+    month = month(date),
+    year = year(date),
+    day = day(date))
+```
+
+
+Column {data-width=350}
+-----------------------------------------------------------------------
+
+### Average maximum daily temperature in January of 2006 vs. 2007 (degree C)
+
+```{r}
+ny_noaa|>
+  filter(month==1)|>
+  group_by(year, day)|>
+  summarise(avg_tmax=mean(tmax))|>
+  mutate(year=as.character(year))|>
+  plot_ly(x=~day,y=~avg_tmax, color = ~year, type = "scatter", mode="lines")|>
+   layout(
+    xaxis = list(title = "day on January"),
+    yaxis = list(title = "average maximum temperature in degree c")
+  )
+```
+
+Column {data-width=650}
+-----------------------------------------------------------------------
+
+### The daily average snowfall in NYC, 2006 - 2007 (mm)
+
+```{r}
+ny_noaa|>
+  group_by(date)|>
+  summarise(avg_snow=mean(snow, na.rm = TRUE))|>
+  plot_ly(x = ~date,y=~avg_snow,type = "bar")|>
+   layout(
+    yaxis = list(title = "average snowfall in mm")
+  )
+```
+
+### The distribution of temperature at climate station in NYC, 2006-2007 (degree C)
+
+```{r}
+ny_noaa|>
+  plot_ly(x=~id, y=~tmin, color = ~id, type="box")|>
+   layout(
+    xaxis = list(title = "Climate Station ID"),
+    yaxis = list(title = "maximum temperature in degree C")
+  )
+```
+
