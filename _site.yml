@@ -5,7 +5,7 @@ navbar:
   right:
     - text: "About me"
       href: about.html
-    - text: "Problem 2"
+    - text: "Problem 2 - Dashboard"
       href: problem2.html
     - icon: fa-envelope fa-lg
       href: mailto:<rw3031@cumc.columbia.edu>
