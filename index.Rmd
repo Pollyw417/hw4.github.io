@@ -10,11 +10,9 @@ html_document:
 Welcome to the personal website for Polly Wu~
 
 
-
-
 ## Academic and professional experience 
 
-[CV](resume.html)
+[CV](about.html)
 
 
 ## Data Visualization Projects

@@ -1,0 +1,99 @@
+---
+title: "About Me"
+output: 
+html_document:
+    toc:ture
+    toc_float:true
+---
+
+# Education
+
+
+### Columbia University, Mailman School of Public Health, New York, NY 
+Master of Public Health, Epidemiology (STEM-designated), Certificate in Applied Biostatistics and Data Science
+
+September 2023- June 2025
+
+● GPA: 4.20/4.00 
+
+● Relevant Coursework: Epidemiology III, Applied Regression I & II, Analysis of Categorical Data
+
+### University of Virginia, School of Education and Human Development, Charlottesville, VA 
+B.S.Ed. with Highest Honor, Major: Youth & Social Innovation, Global Public Health
+
+August 2019 - May 2023
+
+● GPA: 3.95/4.00, Raven Society Honor(0.5% of all eligible students), Dean's List: Fall 2019, Fall 2021, Spring 2022
+
+● Relevant Coursework: Intro to Programming, Statistics for Biologists, Population Health Data Analysis
+
+
+
+# Research Experience 
+
+### Research Associate, Columbia School of Nursing, New York, NY 
+##### September 2024 - Present
+● Manage and coordinate survey dissemination on decision making experience for more than 200 lung cancer patients
+
+● Conduct systematic literature review on lung cancer patient decision making and utilization of virtual reality for treatment preparedness for lung cancer patients
+
+● Analyze survey and interview data using R for patient readiness and preference in treatment decision-making
+
+### Research Fellow, Cancer Epidemiology Education for Special Population, Lusaka, Zambia 
+##### May 2024 - Present
+● Analyze the downstaging effect of Cervical Cancer in Lusaka Zambia over 2008-2023 through screening program
+
+● Digitized cervical cancer patient medical records at Cancer Disease Hospital and establish Access database for the Susan G.Women Cervical Cancer research program to ease future database management
+
+● Merged and cleaned data from hospital registry and the national screening program database using SAS
+
+● Analyze study data through multivariate model, and draft manuscripts for publication based on research findings
+
+### Public Health Policy Intern, Virginia Department of Health, Richmond, VA 
+##### May 2023 - July 2023
+
+● Analyzed data on redlining policy and associated health risks and outcomes using R and created visualization on ArcGIS
+
+● Conducted literature review and developed 3 policy problem statements for the Public Health Policy Agenda on obesity and food insecurity, redlining housing and environmental health, and migrant labor camp regulations
+
+● Facilitated coordination for the quarterly Board of Health meeting and Academic Advisory Council meeting, conducted research on the expansion of the advisory council and drafted meeting minutes
+
+### Research Coordinator, Xingjian Gongyi, Jiangxi, China 
+##### June 2021 - August 2021
+
+● Coordinated survey data collection for more than 100 patients for a cross-sectional longitudinal study on patient quality of life
+
+● Facilitated 25 high school students to conduct an observational study on 10 families with respiratory disease patients
+
+● Aided Program Manager in inviting 3 potential guest speakers and interviewees and planned travel logistics and schedules
+
+# Program Management Experience
+
+### Afghanistan Refugee Child Development Capstone, Madison House, Charlottesville, VA 
+##### September 2022 - May 2023
+● Developed training modules for C-Ville tulips volunteers on cultural competency and trauma-informed childcare strategies
+
+● Mentored recently resettled Afghanistan refugee children biweekly through art, crafting, and outdoor activities
+
+● Conducted qualitative research to explore volunteer’s cultural relevance to refugees and previous training experiences
+
+### Program Management Operation Intern, Chemonics International, Washington, DC 
+##### June 2022 - August 2022
+● Coordinated budget development for USAID’s Project, consolidated deliverables like budget narrative and organizational chart
+
+● Updated internal knowledge management system and governance framework document on SharePoint
+
+● Reviewed monthly billing reports using PowerBI, tracked and managed contractor invoices
+
+● Supported talent management through the planning of 2 staff retreat events, on-boarding and off-boarding of program staff
+
+### Project Associate, China House, Shanghai, China 
+##### October 2020 - October 2021
+● Coordinated with the CSR department of ByteDance to support the digitization of patients’ profiles in the organization
+
+● Communicated with program fellows and NGO partners weekly on project updates and challenges
+
+● Planned project implementation, wrote budget and grant proposals, raised more than 20000 dollars for program funding
+
+● Trained 10 social workers as Cognitive Behavioral Therapy facilitators for mental health sessions with female caregivers
+

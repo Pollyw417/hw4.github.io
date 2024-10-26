@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+
+
+<title>About Me</title>
+
+<script src="site_libs/header-attrs-2.28/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/journal.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+<link href="site_libs/font-awesome-6.4.2/css/all.min.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-6.4.2/css/v4-shims.min.css" rel="stylesheet" />
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+<style type="text/css">code{white-space: pre;}</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+
+
+
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
+}
+pre code {
+  padding: 0;
+}
+</style>
+
+
+<style type="text/css">
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #adb5bd;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script type="text/javascript">
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
+
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "\e258";
+  font-family: 'Glyphicons Halflings';
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">Home</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li>
+  <a href="about.html">About me</a>
+</li>
+<li>
+  <a href="problem2.html">Problem 2</a>
+</li>
+<li>
+  <a href="mailto:&lt;rw3031@cumc.columbia.edu&gt;">
+    <span class="fa fa-envelope fa-lg"></span>
+     
+  </a>
+</li>
+<li>
+  <a href="https://github.com/Pollyw417/">
+    <span class="fa fa-github fa-lg"></span>
+     
+  </a>
+</li>
+<li>
+  <a href="https://www.publichealth.columbia.edu/">MSPH</a>
+</li>
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div id="header">
+
+
+
+<h1 class="title toc-ignore">About Me</h1>
+
+</div>
+
+
+<div id="education" class="section level1">
+<h1>Education</h1>
+<div
+id="columbia-university-mailman-school-of-public-health-new-york-ny"
+class="section level3">
+<h3>Columbia University, Mailman School of Public Health, New York,
+NY</h3>
+<p>Master of Public Health, Epidemiology (STEM-designated), Certificate
+in Applied Biostatistics and Data Science</p>
+<p>September 2023- June 2025</p>
+<p>● GPA: 4.20/4.00</p>
+<p>● Relevant Coursework: Epidemiology III, Applied Regression I &amp;
+II, Analysis of Categorical Data</p>
+</div>
+<div
+id="university-of-virginia-school-of-education-and-human-development-charlottesville-va"
+class="section level3">
+<h3>University of Virginia, School of Education and Human Development,
+Charlottesville, VA</h3>
+<p>B.S.Ed. with Highest Honor, Major: Youth &amp; Social Innovation,
+Global Public Health</p>
+<p>August 2019 - May 2023</p>
+<p>● GPA: 3.95/4.00, Raven Society Honor(0.5% of all eligible students),
+Dean’s List: Fall 2019, Fall 2021, Spring 2022</p>
+<p>● Relevant Coursework: Intro to Programming, Statistics for
+Biologists, Population Health Data Analysis</p>
+</div>
+</div>
+<div id="research-experience" class="section level1">
+<h1>Research Experience</h1>
+<div id="research-associate-columbia-school-of-nursing-new-york-ny"
+class="section level3">
+<h3>Research Associate, Columbia School of Nursing, New York, NY</h3>
+<div id="september-2024---present" class="section level5">
+<h5>September 2024 - Present</h5>
+<p>● Manage and coordinate survey dissemination on decision making
+experience for more than 200 lung cancer patients</p>
+<p>● Conduct systematic literature review on lung cancer patient
+decision making and utilization of virtual reality for treatment
+preparedness for lung cancer patients</p>
+<p>● Analyze survey and interview data using R for patient readiness and
+preference in treatment decision-making</p>
+</div>
+</div>
+<div
+id="research-fellow-cancer-epidemiology-education-for-special-population-lusaka-zambia"
+class="section level3">
+<h3>Research Fellow, Cancer Epidemiology Education for Special
+Population, Lusaka, Zambia</h3>
+<div id="may-2024---present" class="section level5">
+<h5>May 2024 - Present</h5>
+<p>● Analyze the downstaging effect of Cervical Cancer in Lusaka Zambia
+over 2008-2023 through screening program</p>
+<p>● Digitized cervical cancer patient medical records at Cancer Disease
+Hospital and establish Access database for the Susan G.Women Cervical
+Cancer research program to ease future database management</p>
+<p>● Merged and cleaned data from hospital registry and the national
+screening program database using SAS</p>
+<p>● Analyze study data through multivariate model, and draft
+manuscripts for publication based on research findings</p>
+</div>
+</div>
+<div
+id="public-health-policy-intern-virginia-department-of-health-richmond-va"
+class="section level3">
+<h3>Public Health Policy Intern, Virginia Department of Health,
+Richmond, VA</h3>
+<div id="may-2023---july-2023" class="section level5">
+<h5>May 2023 - July 2023</h5>
+<p>● Analyzed data on redlining policy and associated health risks and
+outcomes using R and created visualization on ArcGIS</p>
+<p>● Conducted literature review and developed 3 policy problem
+statements for the Public Health Policy Agenda on obesity and food
+insecurity, redlining housing and environmental health, and migrant
+labor camp regulations</p>
+<p>● Facilitated coordination for the quarterly Board of Health meeting
+and Academic Advisory Council meeting, conducted research on the
+expansion of the advisory council and drafted meeting minutes</p>
+</div>
+</div>
+<div id="research-coordinator-xingjian-gongyi-jiangxi-china"
+class="section level3">
+<h3>Research Coordinator, Xingjian Gongyi, Jiangxi, China</h3>
+<div id="june-2021---august-2021" class="section level5">
+<h5>June 2021 - August 2021</h5>
+<p>● Coordinated survey data collection for more than 100 patients for a
+cross-sectional longitudinal study on patient quality of life</p>
+<p>● Facilitated 25 high school students to conduct an observational
+study on 10 families with respiratory disease patients</p>
+<p>● Aided Program Manager in inviting 3 potential guest speakers and
+interviewees and planned travel logistics and schedules</p>
+</div>
+</div>
+</div>
+<div id="program-management-experience" class="section level1">
+<h1>Program Management Experience</h1>
+<div
+id="afghanistan-refugee-child-development-capstone-madison-house-charlottesville-va"
+class="section level3">
+<h3>Afghanistan Refugee Child Development Capstone, Madison House,
+Charlottesville, VA</h3>
+<div id="september-2022---may-2023" class="section level5">
+<h5>September 2022 - May 2023</h5>
+<p>● Developed training modules for C-Ville tulips volunteers on
+cultural competency and trauma-informed childcare strategies</p>
+<p>● Mentored recently resettled Afghanistan refugee children biweekly
+through art, crafting, and outdoor activities</p>
+<p>● Conducted qualitative research to explore volunteer’s cultural
+relevance to refugees and previous training experiences</p>
+</div>
+</div>
+<div
+id="program-management-operation-intern-chemonics-international-washington-dc"
+class="section level3">
+<h3>Program Management Operation Intern, Chemonics International,
+Washington, DC</h3>
+<div id="june-2022---august-2022" class="section level5">
+<h5>June 2022 - August 2022</h5>
+<p>● Coordinated budget development for USAID’s Project, consolidated
+deliverables like budget narrative and organizational chart</p>
+<p>● Updated internal knowledge management system and governance
+framework document on SharePoint</p>
+<p>● Reviewed monthly billing reports using PowerBI, tracked and managed
+contractor invoices</p>
+<p>● Supported talent management through the planning of 2 staff retreat
+events, on-boarding and off-boarding of program staff</p>
+</div>
+</div>
+<div id="project-associate-china-house-shanghai-china"
+class="section level3">
+<h3>Project Associate, China House, Shanghai, China</h3>
+<div id="october-2020---october-2021" class="section level5">
+<h5>October 2020 - October 2021</h5>
+<p>● Coordinated with the CSR department of ByteDance to support the
+digitization of patients’ profiles in the organization</p>
+<p>● Communicated with program fellows and NGO partners weekly on
+project updates and challenges</p>
+<p>● Planned project implementation, wrote budget and grant proposals,
+raised more than 20000 dollars for program funding</p>
+<p>● Trained 10 social workers as Cognitive Behavioral Therapy
+facilitators for mental health sessions with female caregivers</p>
+</div>
+</div>
+</div>
+
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open');
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>
